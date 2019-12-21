@@ -6,4 +6,8 @@ RUN pacman -Syu --noconfirm && pacman --noconfirm -S \
     arm-none-eabi-gcc \
     make \
     zip \
-    git
+    git \
+    python2 \
+    python2-pip
+
+RUN pip2.7 install pyelftools
