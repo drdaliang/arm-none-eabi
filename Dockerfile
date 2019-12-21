@@ -10,4 +10,4 @@ RUN pacman -Syu --noconfirm && pacman --noconfirm -S \
     python2 \
     python2-pip
 
-RUN pip2.7 install pyelftools
+RUN pip2.7 install pyelftools==0.25
