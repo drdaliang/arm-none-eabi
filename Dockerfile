@@ -5,6 +5,7 @@ RUN pacman -Syu --noconfirm && pacman --noconfirm -S \
     arm-none-eabi-newlib \
     arm-none-eabi-gcc \
     make \
+    camke \
     zip \
     git \
     python2 \
